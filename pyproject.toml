@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "kaggle-competition-nba"
+version = "0.1.0"
+description = ""
+authors = ["RatanaSovann <sovannratana2001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
