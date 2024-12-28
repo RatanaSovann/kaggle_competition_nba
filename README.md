@@ -57,5 +57,41 @@ Project Organization
     └── tox.ini            # tox file with settings for running tox; see tox.readthedocs.io
 
 --------
+Project Structure
+------------
+The project is divided into two main components:
+
+Data Preprocessing & Analysis
+
+Located in notebooks/ folder
+Contains data cleaning and analysis notebooks
+Model Training
+
+Located in notebooks/ directory
+Contains model training and evaluation notebooks
+
+## Installation
+1. Check `pyproject.toml` for required packages and versions
+2. Install dependencies using:
+   ```bash
+   pip install -r requirements.txt
+   ```   
+
+
+If any package is missing, install using:
+```bash
+pip install package_name
+```      
+### Running the Project
+
+#### For Data Preprocessing:
+
+- Navigate to notebooks/folder
+- Follow the data cleaning and analysis notebooks
+
+### For Model Training:
+
+- Navigate to notebooks directory
+- Use the model training notebooks
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
