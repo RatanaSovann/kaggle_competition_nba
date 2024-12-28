@@ -27,18 +27,14 @@ Project Organization
     ├── notebooks          # Jupyter notebooks containing data cleaning, EDA and model
     |   ├── dataprep       # Data preperation before modelling
     |   ├── EDA            # Exploratory Data Analysis
-    |   ├── logistic_reg-1     # Notebook for Logistic Regression model 
-    |   ├── xgboost        # Notebook for XGBoost model
-    │                         
-    │                         
+    |   ├── logistic_reg-1.ipynb     # Notebook for Logistic Regression model 
+    |   └── xgboost.ipynb        # Notebook for XGBoost model
+    │                                                 
+    ├── references         # Data dictionaries, manuals, and all other explanatory materials.
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
+    ├── reports            # Generated analysis report.
+    │           
+    ├── requirements.txt   # Required packages for reporducing environment
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     ├── src                <- Source code for use in this project.
@@ -59,7 +55,6 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
 
 --------
 
