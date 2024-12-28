@@ -61,14 +61,13 @@ Project Structure
 ------------
 The project is divided into two main components:
 
-Data Preprocessing & Analysis
-
-Located in notebooks/ folder
-Contains data cleaning and analysis notebooks
-Model Training
-
-Located in notebooks/ directory
-Contains model training and evaluation notebooks
+1. Data Preprocessing & Analysis
+    - Located in notebooks/ folder
+    - Contains data cleaning and analysis notebooks
+      
+2. Model Training
+   - Located in notebooks/ directory
+   - Contains model training and evaluation notebooks
 
 ## Installation
 1. Check `pyproject.toml` for required packages and versions
